@@ -133,7 +133,7 @@ const Landing = () => {
 
       <section>
         <div className="max-w-[95%] md:max-w-[95%] mx-auto flex flex-col md:flex-row items-center px-4 md:px-8 py-12 md:py-20">
-          <div className="flex-1 text-center md:text-left space-y-6 pr-10 max-sm: pr-0">
+          <div className="flex-1 text-center md:text-left space-y-6 pr-10 max-sm:pr-0">
             <h2
               className="text-xl md:text-5xl font-medium max-sm:text-center"
               style={{ lineHeight: 1.15 }}
@@ -205,11 +205,11 @@ const Landing = () => {
               criatividade e sustentabilidade nas nossas vidas.
             </p>
             <p className="text-base md:text-lg leading-relaxed text-gray-300">
-              A primeira edição, que acontecerá em São Paulo, terá como tema a
-              Economia Criativa. Exploraremos como essa nova economia está
-              transformando a forma como educamos, comunicamos e inovamos,
-              afetando influenciadores, marcas, consumidores e a sociedade como
-              um todo.
+              A primeira edição, que acontecerá em São Paulo, terá como tema a{" "}
+              <strong>Economia Criativa</strong>. Exploraremos como essa nova
+              economia está transformando a forma como educamos, comunicamos e
+              inovamos, afetando influenciadores, marcas, consumidores e a
+              sociedade como um todo.
             </p>
           </div>
           <div className="flex-1 mt-8 md:mt-0 flex justify-end">
@@ -265,7 +265,7 @@ const Landing = () => {
                       <p className="text-xs">
                         {index === 0
                           ? "O mentor dos mentores"
-                          : "Idealizador do clube BoraFazer"}
+                          : "Idealizador do BoraFazer"}
                       </p>
                     </div>
                   </div>
@@ -298,7 +298,7 @@ const Landing = () => {
               </div>
 
               <div className="flex flex-col justify-end col-span-2 md:col-span-1">
-                <div className="relative w-full h-[150px] md:h-[240px]">
+                <div className="relative w-full h-[200px] max-sm:h-[250px] md:h-[240px]">
                   <img
                     src={felipe_cintra}
                     alt="Felipe Cintra"
@@ -362,7 +362,7 @@ const Landing = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6 pb-20">
               <div className="flex flex-col col-span-2 md:col-span-1">
-                <div className="relative w-full h-40 md:h-48">
+                <div className="relative w-full h-40 h-[200px] max-sm:h-[250px] md:h-48">
                   <img
                     src={nelson_neto}
                     alt="Nelson Novaes Neto"
