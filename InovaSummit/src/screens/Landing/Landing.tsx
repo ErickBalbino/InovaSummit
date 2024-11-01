@@ -59,10 +59,26 @@ const Landing = () => {
             <img src={logo} alt="InovaSummit Logo" className="w-100 h-100" />
           </div>
           <div className="hidden md:flex space-x-4">
-            <button className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium flex items-center">
+            <button
+              className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium flex items-center"
+              onClick={() =>
+                window.open(
+                  "https://api.whatsapp.com/send?phone=5511913185849",
+                  "_blank"
+                )
+              }
+            >
               <Ticket weight="fill" className="mr-2" /> Comprar Ticket
             </button>
-            <button className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 font-medium flex items-center">
+            <button
+              className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 font-medium flex items-center"
+              onClick={() =>
+                window.open(
+                  "https://api.whatsapp.com/send?phone=5511913185849",
+                  "_blank"
+                )
+              }
+            >
               <Buildings weight="fill" className="mr-1" /> Torne-se um Parceiro
             </button>
           </div>
@@ -74,7 +90,7 @@ const Landing = () => {
             <List size={32} />
           </button>
         </div>
- 
+
         {sidebarOpen && (
           <div className="fixed inset-0 z-50 flex">
             <div
@@ -88,10 +104,26 @@ const Landing = () => {
               >
                 ✕
               </button>
-              <button className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium mb-4">
+              <button
+                className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 font-medium mb-4"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=5511913185849",
+                    "_blank"
+                  )
+                }
+              >
                 Comprar Ticket
               </button>
-              <button className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 font-medium">
+              <button
+                className="bg-teal-500 text-white px-4 py-2 rounded-md hover:bg-teal-600 font-medium"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=5511913185849",
+                    "_blank"
+                  )
+                }
+              >
                 Torne-se um Parceiro
               </button>
             </div>
@@ -117,10 +149,26 @@ const Landing = () => {
               <img src={circle} alt="Circle" className="h-16 w-16" />
             </div>
             <div className="flex space-x-4 justify-center md:justify-start max-sm:flex-col max-sm:space-x-0">
-              <button className="bg-purple-600 text-white px-6 py-2 rounded-md hover:bg-purple-700 font-medium max-sm:mb-4">
+              <button
+                className="bg-purple-600 text-white px-6 py-2 rounded-md hover:bg-purple-700 font-medium max-sm:mb-4"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=5511913185849",
+                    "_blank"
+                  )
+                }
+              >
                 Comprar Ticket
               </button>
-              <button className="bg-white text-black px-6 py-2 rounded-md border border-gray-300 hover:bg-gray-100">
+              <button
+                className="bg-white text-black px-6 py-2 rounded-md border border-gray-300 hover:bg-gray-100"
+                onClick={() =>
+                  window.open(
+                    "https://api.whatsapp.com/send?phone=5511913185849",
+                    "_blank"
+                  )
+                }
+              >
                 Torne-se um Parceiro
               </button>
             </div>
